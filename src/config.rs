@@ -4,7 +4,6 @@ use serde::{Deserialize};
 pub struct Config {
     #[serde(default)]
     pub redis: deadpool_redis::Config,
-    pub wsf_api_key: String
 }
 
 impl Config {
